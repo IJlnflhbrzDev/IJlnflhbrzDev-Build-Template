@@ -1,0 +1,142 @@
+.navbar {
+  background-color: transparent;
+  transition: .5s;
+}
+
+.navbar-collapse {
+  transition: .5s;
+}
+
+.carousel-item   {
+  height: 500px;
+}
+
+.jumbotron {
+  margin-top: 3%;
+ 
+}
+
+.jumbotron p {
+  font-size: 25px;
+}
+
+.jumbotron img{
+  width: 60%;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.about-us {
+  margin-top: 70px;
+}
+
+.about-us img {
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+}
+
+.statistik p {
+  font-weight: 600;
+  font-size: 18px;
+  font-style: italic;
+}
+.services h5  a{color: black;}
+.services h5  a:hover{
+  text-decoration: none;
+  color: rgb(120, 184, 236);
+  
+}
+ 
+@media (max-width: 370px) {
+  .jumbotron .row{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .jumbotron h1 {
+    font-size: 30px;
+  }
+
+  .jumbotron p {
+    font-size: 20px;
+  }
+
+  .jumbotron button {
+    width: 80vw;
+  }
+
+  .jumbotron img {
+    margin-bottom: 20px;
+  }
+
+  .navbar {
+    background-color: #fff;
+  }
+
+  .about-us h2 {
+    line-height: 37px;
+  }
+
+  .about-us img {
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width : 370px){
+   .feature .row {
+      margin-top: 30%;
+
+  }
+}
+
+.portfolio img {
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
